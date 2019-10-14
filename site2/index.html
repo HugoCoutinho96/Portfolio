@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="js/jquery.js"></script>
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".menu_xs").click(function(){
+				$(".menu").show();
+				$(".menu_close").show();
+				$("body").css("overflow","hidden");
+			})
+				
+			$(".menu_close").click(function(){
+				$(".menu").hide();
+				$(".menu_close").hide();
+				$("body").css("overflow","visible");
+			})
+		})
+	</script>
+
+</head>
+
+<body style="overflow-x: hidden;">
+	<section id="home">
+		<div class="menu_home">
+			<a href="index.html"><img src="imagens/logo.png" class="menu_logo img-responsive"></img></a>
+			<button class="menu_xs"><span class="fa fa-bars fa-lg"></span></button>
+			<nav class="menu">
+				<a class="menu_close"><span class="fa fa-times"></span></a>
+				<ul class="menu_texto">
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#" class="login">Login</a></li>
+				</ul>
+			</nav>	
+		</div>
+
+		<div class="menu_texto_principal">
+			<p class="titulo">Grow Your business with Merkury</p>
+			<p class="sub_titulo">Your partner in crime!</p>
+			<div class="menu_botao"><a href="#">Get started</a></div>
+		</div>
+
+		<div class="menu_imagem_principal">
+			<img src="imagens/imagem_principal.png" class="img-responsive" />
+		</div>
+	</section>
+
+	<section id="home2">
+		<div class="icones">
+			<div class="margin_div">
+				<img src="imagens/icone1.png"/><br><br><br>
+				<p class="icones_titulo">Manage Your Workflow</p><br>
+				<p class="icones_descricao">Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p><br><br><br><br>
+				<div class="home2_botao"><a href="#">See more</a></div>
+			</div>
+			<div class="icones_left">
+				<img src="imagens/icone2.png"/><br><br><br>
+				<p class="icones_titulo">Analytics & Insights</p><br>
+				<p class="icones_descricao">Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p><br><br><br><br>
+				<div class="home2_botao"><a href="#">See more</a></div>
+			</div>
+			<div class="icones_left">
+				<img src="imagens/icone3.png"/><br><br><br>
+				<p class="icones_titulo">Organize Your Deadlines</p><br>
+				<p class="icones_descricao">Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua.</p><br><br><br><br>
+				<div class="home2_botao"><a href="#">See more</a></div>
+			</div>
+		</div>
+
+		<div class="drop">
+			<div class="drop_esquerdo">
+				<p class="drop_titulo">All You need is a browser!</p>
+				<p class="drop_descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.<br><br><br> 
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi<br> ut aliquip ex ea commodo consequat. </p>
+				<p class="drop_info"><span><img src="imagens/icone_v.png" /></span>Lorem ipsum dolor sit amet consectetur<br>
+									<span><img src="imagens/icone_v.png" /></span>Ut enim ad minim veniam quis nostrud</p>
+			</div>
+
+			<div class="drop_direito ">
+				<img src="imagens/tablets.png" class="img-responsive" />
+			</div>
+		</div>
+	</section>
+
+	<section id="home3">
+		<div class="home3_tudo">
+		<div class="home3_esquerdo">
+			<div class="home3_esquerdo_1">
+				<p>In Progres<span class="numero3">(3)</span><span class="seta_direita"><img src="imagens/seta_direita.png" ></span></p>
+				<div class="drop_img_n">
+					<a href="#">...</a>
+				</div>
+				<div class="drop_img_d">
+					<a href="#">...</a>
+				</div>
+				<div class="drop_img_b">
+					<a href="#">...</a>
+				</div>
+			</div>
+			<div class="home3_esquerdo_2">
+				<p>Completed<span class="numero2">(2)</span></p>
+				<div class="drop_img_f">
+					<a href="#">...</a>
+				</div>
+				<div class="drop_img_i">
+					<a href="#">...</a>
+				</div>
+				<div class="drop_vazio">
+					<p>Drop here</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="home3_direito">
+			<p class="home3_direito_titulo">Drag & Drop</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat. 
+			</p>
+			<img src="imagens/seta2_esquerda.png"/>
+			<img src="imagens/seta2_direita.png"/>
+		</div>
+		</div>
+	</section>
+
+	<section id="home4">
+		<div class="home4_div1">
+			<p class="home4_titulo">Powerfull PSD Template</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> 
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			<img src="imagens/fundo4.jpg" class="img-responsive" />
+		</div>
+
+		<div class="home4_div2">
+			<p class="home4_div2_titulo">Check our pricing!</p>
+			<div class="home4_div2_div">
+				<div>
+					<p class="home4_div2_div_titulo">BRONZE PLAN</p>
+					<p><span class="cifrao">$</span><span class="numero">19</span><span class="mes">/mon</span></p>
+					<p class="descricao">
+						<img src="imagens/icone_v_azul.png"/>Lorem ipsum dolor sit am<br>
+						<img src="imagens/icone_v_azul.png"/>Lorem ipsum dolor sit am<br>
+						<img src="imagens/icone_x_vermelho.png"/>Lorem ipsum dolor sit am<br>
+						<img src="imagens/icone_x_vermelho.png"/>Lorem ipsum dolor sit am<br>
+					</p>
+				</div>
+				<div>
+					<p class="home4_div2_div_titulo">SILVER PLAN</p>
+					<p><span class="cifrao">$</span><span class="numero">49</span><span class="mes">/mon</span></p>
+					<p class="descricao">
+						<img src="imagens/icone_v_azul.png"/>Lorem ipsum dolor sit am<br>
+						<img src="imagens/icone_v_azul.png"/>Lorem ipsum dolor sit am<br>
+						<img src="imagens/icone_v_azul.png"/>Lorem ipsum dolor sit am<br>
+						<img src="imagens/icone_x_vermelho.png"/>Lorem ipsum dolor sit am<br>
+					</p>
+				</div>
+				<div>
+					<p class="home4_div2_div_titulo">GOLD PLAN</p>
+					<p><span class="cifrao">$</span><span class="numero">99</span><span class="mes">/mon</span></p>
+					<p class="descricao">
+						<img src="imagens/icone_v_azul.png"/>Lorem ipsum dolor sit am<br>
+						<img src="imagens/icone_v_azul.png"/>Lorem ipsum dolor sit am<br>
+						<img src="imagens/icone_v_azul.png"/>Lorem ipsum dolor sit am<br>
+						<img src="imagens/icone_v_azul.png"/>Lorem ipsum dolor sit am<br>
+					</p>
+				</div>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+			<a href="#">Join now!</a>
+		</div>
+	</section>
+
+	<footer id="rodape">
+		<div class="rodape_centro">
+			<div><p>© 2016 Merkury All Right Reserved</p></div>
+			
+
+			<div class="redes_sociais">
+				<a href="#"><img src="imagens/icone_facebook.png"/></a>
+				<a href="#"><img src="imagens/icone_twitter.png"/></a>
+				<a href="#"><img src="imagens/icone_google.png"/></a>
+			</div>
+
+			<div class="rodape_menu">
+				<ul>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

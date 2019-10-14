@@ -1,0 +1,31 @@
+[wm-menu]{
+    position: absolute;
+    background-color: azure;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 100px 350px;
+    width: 500px;
+    height: 400px;
+    z-index: 101;
+    display: none
+}
+
+.pontuacao{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+
+.btn-reiniciar{
+    padding: 30px;
+    background: linear-gradient(90deg, #639301, #A5e82e);
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer
+}

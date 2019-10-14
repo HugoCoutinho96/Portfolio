@@ -1,0 +1,123 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body { overflow-x: hidden; }
+
+#principal{
+	background-image: url("../imagens/fundo2.jpg");
+	padding: 20px;
+	margin: -19px;
+
+}
+
+.logo_principal{
+	margin-top: 100px;
+	
+}
+
+
+@media (max-width: 576px){
+	#principal{background-image: url("../imagens/fundo.jpg"); }
+	.logo_principal{margin-left: 20px; margin-top: 100px;}
+	.nome_principal{margin-top: -150px; margin-left: 15px;}
+}
+
+.navbar-brand{
+	margin-top: -8px;
+}
+
+nav ul li{height: 53px;}
+nav ul li:hover{border-top: 2px solid blue;}
+
+.nome_principal{
+			height: 120px;
+			font-family: New Century Schoolbook, TeX Gyre Schola, serif, arial;
+			font-size: 75px;
+			letter-spacing: 3px;
+			text-align: center;
+			line-height: 100%;
+			text-transform: uppercase;
+			color: white;
+			margin-top: 100px;
+}
+
+#portifolio{
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#portifolio .imagens h1{
+	padding-top: 20px;
+	margin-left: -20px;
+	text-align: center;
+}
+
+#portifolio .imagens img{
+	width: 300px;
+	height: 250px;
+	margin: 10px;
+	box-shadow: 0px 0px 2px black;
+}
+
+#portifolio .imagens img:hover{
+	box-shadow: 0px 0px 15px blue;
+	transform: scale(1.4);
+}
+
+#contato{
+	background-color: #C0C0C0;
+}
+
+#contato .lapis-contato{
+	margin-left: 600px;
+}
+
+/*animações*/
+.focus-in-contract-bck {
+	-webkit-animation: focus-in-contract-bck 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract-bck 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+            transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+            transform: translateZ(12px);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+

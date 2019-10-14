@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <title>Viviane Ribeiro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+  <link rel="stylesheet" type="text/css" href="css/animations.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="imagens/logo-icon.png" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="css/flexslider.css"> 
+  <script src="js/jquery.flexslider.js"></script>
+
+
+  <script type="text/javascript">
+  	$(document).ready(function() {
+	  // The slider being synced must be initialized first
+	  $('#carousel').flexslider({
+	    animation: "slide",
+	    controlNav: false,
+	    animationLoop: false,
+	    slideshow: false,
+	    itemWidth: 210,
+	    itemMargin: 5,
+	    asNavFor: '#slider'
+	  });
+	 
+	  $('#slider').flexslider({
+	    animation: "slide",
+	    controlNav: false,
+	    animationLoop: false,
+	    slideshow: true,
+	    sync: "#carousel"
+	  });
+	});
+  </script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  			<div class="container">
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        				<span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span> 
+      				</button>
+      				<a class="navbar-brand" href="index.html">VIVIANE <span class="logo_marca"><img src="imagens/logo.png" width="60px" height="40px" /></span> RIBEIRO</a>
+    			</div>
+		    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li><a href="index.html">HOME</a></li>
+		        <li><a href="#portifolio">PORTFÓLIO</a></li> 
+		        <li><a href="#contato">CONTATO</a></li> 
+		      </ul>
+		    </div>
+		  </div>
+</nav>
+  
+<section id="principal" class="container-fluid">
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="logo_principal" align="center">
+				<img src="imagens/logo_branco.png" width="300px" height="200px" />
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div>
+				<p class="nome_principal focus-in-contract-bck">viviane<br>ribeiro</p>
+			</div>
+		</div>
+	</div>
+  
+</section>
+
+<section id="portifolio" style="border: 1px solid white">
+	<div class="row">
+
+		<div class="col-md-12 " align="center">
+			<br><h1><b>PORTFÓLIO</b></h1><br><br>
+			<!-- slide -->
+			<div id="slider" class="flexslider">
+			  <ul class="slides">
+			    <li>
+			      <img src="imagens/sandri4.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/aline4.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher4.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/renata2.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher5.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher.jpg"  />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher8.JPG" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher9.JPG" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher10.JPG" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher11.JPG" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher12.JPG" />
+			    </li>
+			  </ul>
+			</div>
+
+			<div id="carousel" class="flexslider">
+			  <ul class="slides">
+			    <li>
+			      <img src="imagens/sandri4.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/aline4.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher4.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/renata2.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher5.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher.jpg" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher8.JPG" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher9.JPG" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher10.JPG" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher11.JPG" />
+			    </li>
+			    <li>
+			      <img src="imagens/mulher12.JPG" />
+			    </li>
+			  </ul>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<section id="contato">
+	<hr><center>
+	<div class="row">
+		<div class="col-md-8">
+			<h1>Me siga no Instagram</h1>
+			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+			<div class="elfsight-app-c199093f-35c9-43c1-8a9d-483b00e044c5"></div>
+		</div>
+	
+		<div class="col-md-4">
+			<h1>Contato:</h1>
+			<h3><a href="mailto:vivieribeiromakeup@gmail.com" class="email">vivieribeiromakeup@gmail.com</a></h3>
+			<h3>(81)98731-9500</h3>
+		</div>
+		<div class="animatedParent" style="z-index: 2">
+			<div class="animated fadeInRight lapis-contato hidden-xs hidden-sm"><img src="imagens/lapis.png"  /></div>
+		</div></center>
+	</div>
+</section>
+<script type="text/javascript" src="js/css3-animate-it.js"></script>
+</body>
+</html>

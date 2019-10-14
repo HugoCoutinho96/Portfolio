@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Bateria</title>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="icon" href="imagens/bateria_favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/src/baterias.js"></script>
+    <script type="text/javascript" src="js/src/baterias/bateria1.js"></script>
+    <script type="text/javascript" src="js/src/baterias/bateria2.js"></script>
+    <script type="text/javascript" src="js/src/baterias/bateria3.js"></script>
+    <script type="text/javascript" src="js/src/baterias/bateria4.js"></script>
+    <script type="text/javascript" src="js/src/baterias/bateria5.js"></script>
+    <script type="text/javascript" src="js/src/baterias/bateria6.js"></script>
+    <script type="text/javascript" src="js/src/baterias/bateria7.js"></script>
+    <script type="text/javascript" src="js/src/baterias/bateria8.js"></script>
+    <script type="text/javascript" src="js/src/baterias/bateria9.js"></script>
+    <script type="text/javascript" src="js/src/baterias/bateria10.js"></script>
+    <script type="text/javascript" src="js/src/tela_baterias.js"></script>
+    
+
+</head>
+
+<body>
+    <section class="container-fluid">
+        <div class="col-md-8 col-md-offset-2">
+            <ul class="nav nav-tabs">
+              <li class="active positivo"><a>+</a></li>
+              <li class="active negativo" style="float: right"><a>-</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div id="baterias" class="tab-pane fade in active">
+                <div class="form-group">
+                    <select id="escolha_bateria" name="baterias" class="col-md-6 col-xs-6">
+                        <option value="bateria1">Bateria 1</option>
+                        <option value="bateria2">Bateria 2</option>
+                        <option value="bateria3">Bateria 3</option>
+                        <option value="bateria4">Bateria 4</option>
+                        <option value="bateria5">Bateria 5</option>
+                        <option value="bateria6">Bateria 6</option>
+                        <option value="bateria7">Bateria 7</option>
+                        <option value="bateria8">Bateria 8</option>
+                        <option value="bateria9">Bateria 9</option>
+                        <option value="bateria10">Bateria 10</option>
+                    </select>
+                    
+                    <select id="escolha_dia" name="dia_baterias" class="col-md-6 col-xs-6">
+                        <option value="31">31/12/2018</option>
+                        <option value="30">30/12/2018</option>
+                        <option value="29">29/12/2018</option>
+                        <option value="28">28/12/2018</option>
+                        <option value="27">27/12/2018</option>
+                        <option value="26">26/12/2018</option>
+                        <option value="25">25/12/2018</option>
+                        <option value="24">24/12/2018</option>
+                        <option value="23">23/12/2018</option>
+                        <option value="22">22/12/2018</option>
+                        <option value="21">21/12/2018</option>
+                        <option value="20">20/12/2018</option>
+                        <option value="19">19/12/2018</option>
+                        <option value="18">18/12/2018</option>
+                        <option value="17">17/12/2018</option>
+                        <option value="16">16/12/2018</option>
+                        <option value="15">15/12/2018</option>
+                        <option value="14">14/12/2018</option>
+                        <option value="13">13/12/2018</option>
+                        <option value="12">12/12/2018</option>
+                        <option value="11">11/12/2018</option>
+                        <option value="10">10/12/2018</option>
+                        <option value="9">09/12/2018</option>
+                        <option value="8">08/12/2018</option>
+                        <option value="7">07/12/2018</option>
+                        <option value="6">06/12/2018</option>
+                        <option value="5">05/12/2018</option>
+                        <option value="4">04/12/2018</option>
+                        <option value="3">03/12/2018</option>
+                        <option value="2">02/12/2018</option>
+                        <option value="1">01/12/2018</option>
+                    </select> 
+                </div>
+                   
+                <table class="table table-bordered table-responsive">
+                    <tr>
+                        <th id="bateria">Bateria: battery 1</th>
+                        <th id="data">Data: 31/12/2018</th>
+                        <th id="hora">Hora: 23:02:00</th>
+                    </tr>
+                    <tr>
+                        <th id="temp">Temperatura: </th>
+                        <th id="temp_valor">5.25°C</th>
+                        <th id="temp_cor">Atenção</th>
+                    </tr>
+                    <tr>
+                        <th id="carga">Carga: </th>
+                        <th id="carga_valor">2ah</th>
+                        <th id="carga_cor">Bateria Fraca</th>
+                    </tr>
+                </table>
+              </div>
+              
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
